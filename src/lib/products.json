@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Jollof Rice",
+    "description": "Traditional Nigerian rice dish cooked with tomatoes, peppers, and spices",
+    "price": 2500,
+    "category": "Food",
+    "image": "/images/jollof-rice.jpg",
+    "stock": 50
+  },
+  {
+    "id": 2,
+    "name": "Pounded Yam",
+    "description": "Smooth yam paste served with various Nigerian soups",
+    "price": 1200,
+    "category": "Food",
+    "image": "/images/pounded-yam.jpg",
+    "stock": 30
+  },
+  {
+    "id": 3,
+    "name": "Egusi Soup",
+    "description": "Ground melon seed soup with vegetables and meat",
+    "price": 1800,
+    "category": "Food",
+    "image": "/images/egusi-soup.jpg",
+    "stock": 25
+  },
+  {
+    "id": 4,
+    "name": "Suya",
+    "description": "Spicy grilled meat skewers with groundnut powder",
+    "price": 800,
+    "category": "Food",
+    "image": "/images/suya.jpg",
+    "stock": 40
+  },
+  {
+    "id": 5,
+    "name": "Akara",
+    "description": "Deep-fried bean cakes, perfect for breakfast",
+    "price": 300,
+    "category": "Food",
+    "image": "/images/akara.jpg",
+    "stock": 60
+  },
+  {
+    "id": 6,
+    "name": "Puff Puff",
+    "description": "Sweet fried dough balls, a popular snack",
+    "price": 200,
+    "category": "Food",
+    "image": "/images/puff-puff.jpg",
+    "stock": 80
+  },
+  {
+    "id": 7,
+    "name": "Ankara Fabric",
+    "description": "Beautiful African print fabric, 6 yards",
+    "price": 15000,
+    "category": "Clothing",
+    "image": "/images/ankara-fabric.jpg",
+    "stock": 15
+  },
+  {
+    "id": 8,
+    "name": "Agbada",
+    "description": "Traditional Nigerian formal wear for men",
+    "price": 45000,
+    "category": "Clothing",
+    "image": "/images/agbada.jpg",
+    "stock": 8
+  },
+  {
+    "id": 9,
+    "name": "Buba and Iro",
+    "description": "Traditional Nigerian women's outfit",
+    "price": 35000,
+    "category": "Clothing",
+    "image": "/images/buba-iro.jpg",
+    "stock": 12
+  },
+  {
+    "id": 10,
+    "name": "Gele Headwrap",
+    "description": "Elegant headwrap for special occasions",
+    "price": 8000,
+    "category": "Clothing",
+    "image": "/images/gele.jpg",
+    "stock": 20
+  },
+  {
+    "id": 11,
+    "name": "Palm Oil",
+    "description": "Pure red palm oil, 1 liter",
+    "price": 1200,
+    "category": "Cooking",
+    "image": "/images/palm-oil.jpg",
+    "stock": 35
+  },
+  {
+    "id": 12,
+    "name": "Groundnut Oil",
+    "description": "Natural peanut oil, 1 liter",
+    "price": 1500,
+    "category": "Cooking",
+    "image": "/images/groundnut-oil.jpg",
+    "stock": 28
+  },
+  {
+    "id": 13,
+    "name": "Yam Tubers",
+    "description": "Fresh Nigerian yam, 1kg",
+    "price": 2500,
+    "category": "Food",
+    "image": "/images/yam.jpg",
+    "stock": 45
+  },
+  {
+    "id": 14,
+    "name": "Plantains",
+    "description": "Ripe plantains, 1kg",
+    "price": 800,
+    "category": "Food",
+    "image": "/images/plantains.jpg",
+    "stock": 55
+  },
+  {
+    "id": 15,
+    "name": "Bitter Leaf",
+    "description": "Fresh bitter leaf for traditional soups",
+    "price": 500,
+    "category": "Food",
+    "image": "/images/bitter-leaf.jpg",
+    "stock": 25
+  },
+  {
+    "id": 16,
+    "name": "Ogiri",
+    "description": "Traditional seasoning for soups",
+    "price": 300,
+    "category": "Cooking",
+    "image": "/images/ogiri.jpg",
+    "stock": 40
+  },
+  {
+    "id": 17,
+    "name": "Kuli Kuli",
+    "description": "Groundnut snack, 500g",
+    "price": 1200,
+    "category": "Food",
+    "image": "/images/kuli-kuli.jpg",
+    "stock": 30
+  },
+  {
+    "id": 18,
+    "name": "Tiger Nuts",
+    "description": "Natural tiger nuts, 500g",
+    "price": 1500,
+    "category": "Food",
+    "image": "/images/tiger-nuts.jpg",
+    "stock": 22
+  },
+  {
+    "id": 19,
+    "name": "Adire Fabric",
+    "description": "Traditional tie-dye fabric, 4 yards",
+    "price": 12000,
+    "category": "Clothing",
+    "image": "/images/adire.jpg",
+    "stock": 18
+  },
+  {
+    "id": 20,
+    "name": "Beaded Necklace",
+    "description": "Handcrafted beaded jewelry",
+    "price": 3500,
+    "category": "Accessories",
+    "image": "/images/beaded-necklace.jpg",
+    "stock": 15
+  }
+] 
