@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { toast } from 'react-toastify';
 import products from '@/lib/products.json';
 import Navigation from '@/components/Navigation';
@@ -28,6 +28,23 @@ const Home = () => {
     }
     return products.filter(product => product.category === selectedCategory);
   }, [selectedCategory]);
+
+  const calculateSubtotal = () => {
+    return cart.reduce((total, item) => total + (item.price * item.quantity), 0);
+  };
+
+  const calculateTotal = () => {
+    const subtotal = calculateSubtotal();
+    return subtotal - discount;
+  };
+
+  useEffect(() => {
+    if (isCouponApplied) {
+      const subtotal = calculateSubtotal();
+      const discountAmount = subtotal * 0.132;
+      setDiscount(discountAmount);
+    }
+  }, [cart, isCouponApplied]);
 
   const addToCart = (product: Product) => {
     setCart(prevCart => {
@@ -73,15 +90,6 @@ const Home = () => {
   const removeFromCart = (productId: number) => {
     setCart(prevCart => prevCart.filter(item => item.id !== productId));
     toast.success('Item removed from cart');
-  };
-
-  const calculateSubtotal = () => {
-    return cart.reduce((total, item) => total + (item.price * item.quantity), 0);
-  };
-
-  const calculateTotal = () => {
-    const subtotal = calculateSubtotal();
-    return subtotal - discount;
   };
 
   const validateCouponCode = (code: string) => {
@@ -131,7 +139,7 @@ const Home = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen bg-gray-50">
       <Navigation 
         cartItemCount={getCartItemCount()}
         onCartClick={() => setIsCartOpen(true)}
