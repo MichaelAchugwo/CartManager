@@ -41,7 +41,7 @@
     "description": "Deep-fried bean cakes, perfect for breakfast",
     "price": 300,
     "category": "Food",
-    "image": "/images/akara.jpg",
+    "image": "/images/akara.jpeg",
     "stock": 60
   },
   {
@@ -95,7 +95,7 @@
     "description": "Pure red palm oil, 1 liter",
     "price": 1200,
     "category": "Cooking",
-    "image": "/images/palm-oil.jpg",
+    "image": "/images/palm-oil.png",
     "stock": 35
   },
   {
@@ -131,52 +131,7 @@
     "description": "Fresh bitter leaf for traditional soups",
     "price": 500,
     "category": "Food",
-    "image": "/images/bitter-leaf.jpg",
+    "image": "/images/bitter-leaf.png",
     "stock": 25
-  },
-  {
-    "id": 16,
-    "name": "Ogiri",
-    "description": "Traditional seasoning for soups",
-    "price": 300,
-    "category": "Cooking",
-    "image": "/images/ogiri.jpg",
-    "stock": 40
-  },
-  {
-    "id": 17,
-    "name": "Kuli Kuli",
-    "description": "Groundnut snack, 500g",
-    "price": 1200,
-    "category": "Food",
-    "image": "/images/kuli-kuli.jpg",
-    "stock": 30
-  },
-  {
-    "id": 18,
-    "name": "Tiger Nuts",
-    "description": "Natural tiger nuts, 500g",
-    "price": 1500,
-    "category": "Food",
-    "image": "/images/tiger-nuts.jpg",
-    "stock": 22
-  },
-  {
-    "id": 19,
-    "name": "Adire Fabric",
-    "description": "Traditional tie-dye fabric, 4 yards",
-    "price": 12000,
-    "category": "Clothing",
-    "image": "/images/adire.jpg",
-    "stock": 18
-  },
-  {
-    "id": 20,
-    "name": "Beaded Necklace",
-    "description": "Handcrafted beaded jewelry",
-    "price": 3500,
-    "category": "Accessories",
-    "image": "/images/beaded-necklace.jpg",
-    "stock": 15
   }
 ] 
